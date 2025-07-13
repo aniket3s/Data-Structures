@@ -1,4 +1,3 @@
-package default;
 
 public class CountPrime {
 	
