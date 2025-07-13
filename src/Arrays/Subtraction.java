@@ -1,6 +1,6 @@
-import java.util.Arrays;
+package Arrays;
 
-import jdk.internal.util.ArraysSupport;
+import java.util.Arrays;
 
 /* substract a2 array from a1
   

@@ -1,4 +1,4 @@
-package Array;
+package Arrays;
 
 public class VowelConsonentPartition {
 	
@@ -22,7 +22,7 @@ public class VowelConsonentPartition {
 			if((a[i] != 'a' || a[j] != 'e' || a[j] != 'i' || a[j] != 'o' || a[j] != 'u') &&
 					(a[i] == 'a' || a[i] == 'e' || a[i] == 'i' || a[i] == 'o' || a[i] == 'u'))
 			{
-				char temp = 
+		
 				i++;
 				j--;
 			}
