@@ -6,11 +6,11 @@ import java.util.Arrays;
 
 public class EvenArray {
 
-	public static int[] evenArray(int[]a)
+	public static int[] evenArray(int[] nums)
 	{
-		for (int i = 0; i < a.length; i++) {
-			if (a[i]%2 != 0) {
-				a[i] +=1;
+		for (int i = 0; i < nums.length; i++) {
+			if (nums [i]%2 != 0) {
+				nums[i] +=1;
 			}
 		}
 		return a;
