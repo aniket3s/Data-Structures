@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class PositiveNegativePartition {
 	
-	public static int[] partition(int[] nums)
-	{
+	public static int[] partition(int[] nums) {
+		
 		int i = 0, j = nums.length-1;
 		while(nums[i]<0){
 			i++;
@@ -22,10 +22,9 @@ public class PositiveNegativePartition {
 	}
 	
 	
-	public static void main(String[] args)
-	{
-		int arr[] = {-1,-2,3,4,-5,6,-7};
-		
+	public static void main(String[] args) {
+
+		int arr[] = {-1,-2,3,4,-5,6,-7};		
 		System.out.println(Arrays.toString(partition(arr)));
 	}
 
