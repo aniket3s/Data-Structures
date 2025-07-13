@@ -13,7 +13,7 @@ public class EvenArray {
 				nums[i] +=1;
 			}
 		}
-		return a;
+		return nums;
 	}
 	
 	public static void main(String[] args) {
