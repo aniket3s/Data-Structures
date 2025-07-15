@@ -8,7 +8,7 @@ public class RotateArray {
 		reverse(nums, 0, nums.length-k-1);
 		reverse(nums, nums.length-k, nums.length-1);
 		
-		return reverse(nums,0,nums.length-1);;
+		return reverse(nums,0,nums.length-1);
 	}
 	
 	public static int[] reverse(int[] nums,int i, int j) {
