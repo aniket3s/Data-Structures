@@ -13,17 +13,18 @@ public class RotateArray{
 			j--;
 		}	
 	}
-	public static void Rotate(int[]arr, int k) {
+	public static int[] Rotate(int[]arr, int k) {
+		k = k%arr.length;
+		if (k<0)  k=k+arr.length;
 		int n = arr.length;
 		reverse(arr,0,n-k-1);
 		reverse(arr,n-k,n-1);
 		reverse(arr,0,n-1);
+		return arr;
 	}
 	public static void main(String[] args) {
 		int[] arr = {3,2,4,5,7,3,5,7};	
-		Rotate(arr,3);
-		for (int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i]+" ");
-		}
+		
+		System.out.println(Arrays.toString(Rotate(arr, 3)));
 	}
 }
